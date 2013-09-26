@@ -1,6 +1,11 @@
 \documentclass{beamer}
 \usetheme{Warsaw}
 
+% The subfolder containing the images
+\usepackage{graphicx}
+\graphicspath{{Images/}}
+\DeclareGraphicsExtensions{.jpg}
+
 \title{Basic Soldering Workshop}
 \subtitle{PTH and large pitch SMT}
 \author{Ethan Harstad \and Ian McInerney}
@@ -26,8 +31,15 @@
 \end{frame}
 
 \section{Introduction}
-\begin{frame}
+\begin{frame}[t]
 	\frametitle{Introduction}
+	In this workshop you will learn:
+	\begin{itemize}
+		\item Safety hazards associated with soldering
+		\item Safety precautions to take while soldering
+		\item How to solder through-hole components
+		\item How to solder large pitch surface mount components
+	\end{itemize}
 \end{frame}
 
 \section{Safety}
@@ -61,7 +73,7 @@
 	\frametitle{Hazard - Skin Irritation}
 	Some chemicals, such as activated fluxes, can cause skin irritation. Washing any areas of contact after soldering is usually sufficient to prevent irritation from chemicals stocked in the lab.\\
 	You may wear gloves and/or long sleeves if you have sensitive skin.\\
-	\textbf{Do not use any other products with prior approval.}
+	\textbf{Do not use any other products without prior approval.}
 \end{frame}
 \begin{frame}[t]
 	\frametitle{Hazard - Electrocution}
@@ -91,9 +103,18 @@
 \end{frame}
 
 \section{Basic Procedure}
+\subsection{Soldering Iron Controls}
+\begin{frame}[t]
+	\frametitle{Soldering Iron Controls}
+	\center
+	\includegraphics[height=1.5in]{WellerFront} \\
+	\includegraphics[width=4in]{Pencil}
+\end{frame}
+
 \subsection{Tip/Temperature Selection}
 \begin{frame}[t]
 	\frametitle{Tip/Temperature Selection}
+	\includegraphics[width=3in]{IronTips}
 \end{frame}
 
 \subsection{Joint Preparation}
